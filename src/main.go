@@ -10,9 +10,8 @@ import (
 func main() {
 	var num int;
 	var ptr *int;
-	num, ptr = PushInt(10);
-
-	ptr = &num;
+	num, ptr = pp.PushInt(10);
+	
 	fmt.Print(" variable:", num);
 	fmt.Print("\n pointer:", ptr);
 }
