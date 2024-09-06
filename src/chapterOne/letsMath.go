@@ -15,5 +15,5 @@ func SquareSeven(){
 }
 
 func PrintPi(){
-	fmt.Println(math.Pi); // the capital "P" allows the import
+	fmt.Println("Pi is",math.Pi); // the capital "P" allows the import
 }
