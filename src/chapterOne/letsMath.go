@@ -26,3 +26,12 @@ func PrintAddition(x, y int){
 	ystr := strconv.Itoa(y);
 	fmt.Printf("%v+%v=%v",xstr,ystr, strconv.Itoa(add(x,y)));
 }
+func split(sum int) (x,y int){
+	x = sum *4/9;
+	y=sum-x
+
+	return
+}
+func PrintSplit(sum int){
+	fmt.Println(split(sum));
+}
