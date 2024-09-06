@@ -3,13 +3,17 @@ package main;
 
 // Importing fmt 
 import ( 
-	"GoLangSanbox/src/packages"
+	"GoLangSanbox/src/chapterOne"
     "fmt"
 ) 
 
 func main() {
 	// step 1
-	packages.RandomNum();
+	chapterOne.RandomNum();
+	// step 2
+	chapterOne.SquareSeven();
+	// step 3
+	chapterOne.PrintPi();
 	fmt.Print("\n---------");
 	fmt.Print("\n Finished");
 }
