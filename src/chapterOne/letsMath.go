@@ -24,5 +24,5 @@ func add(a int, b int) int{
 func PrintAddition(x int, y int){
 	xstr := strconv.Itoa(x);
 	ystr := strconv.Itoa(y);
-	fmt.Printf("%v + %v = %v",xstr,ystr, strconv.Itoa(add(x,y)));
+	fmt.Printf("%v+%v=%v",xstr,ystr, strconv.Itoa(add(x,y)));
 }
