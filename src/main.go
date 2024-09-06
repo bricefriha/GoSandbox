@@ -3,14 +3,14 @@ package main;
 
 // Importing fmt 
 import ( 
-	"GoLangSanbox/src/pp"
+	"GoLangSanbox/src/pointer"
     "fmt"
 ) 
 
 func main() {
 	var num int;
 	var ptr *int;
-	num, ptr = pp.PushInt(10);
+	num, ptr = pointer.PushInt(10);
 	
 	fmt.Print(" variable:", num);
 	fmt.Print("\n pointer:", ptr);
