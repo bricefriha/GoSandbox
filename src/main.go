@@ -14,6 +14,8 @@ func main() {
 	chapterOne.SquareSeven();
 	// step 3
 	chapterOne.PrintPi();
+	// step 4
+	chapterOne.PrintAddition(3,5);
 	fmt.Print("\n---------");
 	fmt.Print("\n Finished");
 }
