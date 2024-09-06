@@ -3,15 +3,13 @@ package main;
 
 // Importing fmt 
 import ( 
-	"GoLangSanbox/src/pointer"
+	"GoLangSanbox/src/packages"
     "fmt"
 ) 
 
 func main() {
-	var num int;
-	var ptr *int;
-	num, ptr = pointer.PushInt(10);
-	
-	fmt.Print(" variable:", num);
-	fmt.Print("\n pointer:", ptr);
+	// step 1
+	packages.RandomNum();
+	fmt.Print("\n---------");
+	fmt.Print("\n Finished");
 }
