@@ -35,3 +35,7 @@ func split(sum int) (x,y int){
 func PrintSplit(sum int){
 	fmt.Println(split(sum));
 }
+func PrintArguments(arg1 bool, arg2 bool, arg3 bool){
+	var i int;
+	fmt.Println(i, arg1, arg2, arg3);
+}
