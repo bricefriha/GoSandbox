@@ -6,8 +6,11 @@ import (
 	"GoLangSanbox/src/chapterOne"
     "fmt"
 ) 
-var c, python, java bool = true, false, "no!"
+
 func main() {
+	var i, j int = 1,2
+	k :=3 ;
+	c, python, java := true, false, "no!"
 	// step 1
 	chapterOne.RandomNum();
 	// step 2
@@ -22,7 +25,8 @@ func main() {
 	chapterOne.PrintSplit(17);
 	// step 8 and 9
 	chapterOne.PrintArguments(c, python, java);
-	// Step 9
+	// Step 10
+	chapterOne.Print4Arguments(i, j, k, c, python, java)
 	fmt.Print("\n---------");
 	fmt.Print("\n Finished");
 }
