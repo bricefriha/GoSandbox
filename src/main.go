@@ -6,7 +6,7 @@ import (
 	"GoLangSanbox/src/chapterOne"
     "fmt"
 ) 
-var c, python, java bool
+var c, python, java bool = true, false, "no!"
 func main() {
 	// step 1
 	chapterOne.RandomNum();
@@ -20,8 +20,9 @@ func main() {
 	chapterOne.PrintSwap("Sky","Blue");
 	// step 7
 	chapterOne.PrintSplit(17);
-	// step 8
+	// step 8 and 9
 	chapterOne.PrintArguments(c, python, java);
+	// Step 9
 	fmt.Print("\n---------");
 	fmt.Print("\n Finished");
 }
