@@ -26,7 +26,7 @@ func main() {
 	// step 8 and 9
 	chapterOne.PrintArguments(c, python, java);
 	// Step 10
-	chapterOne.Print4Arguments(i, j, k, c, python, java)
+	chapterOne.Print4Arguments(i, j, k, c, python, java);
 	fmt.Print("\n---------");
 	fmt.Print("\n Finished");
 }
