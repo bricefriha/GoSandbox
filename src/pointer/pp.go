@@ -1,4 +1,4 @@
-package pp
+package pointer
 
 // Dumb af
 func PushInt(value int) (int, *int){
