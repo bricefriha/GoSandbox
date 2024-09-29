@@ -27,8 +27,20 @@ func main() {
 	chapterOne.PrintArguments(c, python, java)
 	// Step 10
 	chapterOne.Print4Arguments(i, j, k, c, python, java)
-	// Step 12
+	// Step 12 and 13
 	chapterOne.SquareRoot(-5 + 12i)
+	// Step 16
+	const (
+		// Create a huge number by shifting a 1 bit left 100 places.
+		// In other words, the binary number that is 1 followed by 100 zeroes.
+		Big = 1 << 100
+		// Shift it right again 99 places, so we end up with 1<<1, or 2.
+		Small = Big >> 99
+	)
+	fmt.Println(chapterOne.NeedInt(Small))
+	fmt.Println(chapterOne.NeedFloat(Small))
+	fmt.Println(chapterOne.NeedFloat(Big))
+
 	fmt.Print("\n---------")
 	fmt.Print("\n Finished")
 }

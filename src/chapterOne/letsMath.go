@@ -47,3 +47,9 @@ func Print4Arguments(arg1 int, arg2 int, arg3 int, arg4 bool, arg5 bool, arg6 st
 func SquareRoot(arg complex128) {
 	fmt.Println(cmplx.Sqrt(arg))
 }
+func NeedInt(x int) int {
+	return x*10 + 1
+}
+func NeedFloat(x float64) float64 {
+	return x * 0.1
+}
